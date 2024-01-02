@@ -4,7 +4,8 @@ import { debounceTime } from 'rxjs/operators';
 
 @Component({
     selector: 'ap-search',
-    templateUrl: './search.component.html'
+    templateUrl: './search.component.html',
+    styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit, OnDestroy {
     
